@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="l.css" />
+</head>
+<body>
+    <h1> Registration Form</h1>
+    
+    <form action=""><label for="id" >User Id:</label>
+        <input type="text" id="id" minlength="5" maxlength="15" required><br><br>
+        <label for="pd">password:</label>
+        <input type="password" id="pd" minlength="7" maxlength="12" required><br><br>
+        <label for="name">Name:</label>
+        <input type="text" pattern="[a-zA-Z'-'\s]*" required id="name"><br><br>
+        <label for="adre">Address:</label>
+        <input type="text" id="adre" ><br><br>
+        <label for="cou">Country:</label>
+        <select id="cou" required>
+            <option value="">please select</option>
+            <option value="india">india</option>
+            <option value="usa">usa</option>
+            <option value="uk">uk</option>
+            <option value="other">other</option>
+
+        </select><br><br>
+        <label for="zip">zip code</label>
+        <input type="number" id="zip" required /><br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" required><br><br>
+
+        <label for="sex" >sex:</label>
+        <input type="radio" required id="male" value="0" name="l">
+        <label for="male">male</label>
+        <input type="radio" required id="female" value="1" name="l">
+        <label for="female">female</label><br><br>
+
+        <label for="lee"  >Language:</label>
+        <input type="checkbox"  name="check" onclick="onlyOne(this)" id="eng" value="0">
+        <label for="eng" >English</label>
+        <input type="checkbox" name="check" onclick="onlyOne(this)"  id="ne" value="1">
+        <label for="ne" >non english</label><br><br>
+        
+        <label for="about">About:</label>
+        <input type="text" id="about" ><br><br>
+        <label for=""></label>
+        <label for=""></label>
+        <label for=""></label>
+        <input type="submit" value="submit"></form>
+        
+    <script src="l.js"></script>
+</body>
+</html>
