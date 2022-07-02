@@ -1,0 +1,306 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --dashboard:#303549;
+    --violet:#616ED3;
+}
+.side{
+    display:flex;
+
+}
+.side1{
+    background-color:var(--dashboard);
+    width:13%;
+    height:1190px;
+    color:white;
+    
+    
+}
+.head{
+    padding-left:50px;
+}
+.home{
+    display:flex;
+      align-items: center;
+}
+.label{
+    color:white;
+    margin-left: 25px;
+  
+}
+.home:hover{
+    background-color: black;
+}
+i{
+    color:white;
+
+}
+.dot {
+    margin-left:50px;
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .upside1{
+    background-color:#F7F8FA;
+    width: 40%;
+    margin-bottom: ;
+  }
+  
+  .upside1{
+    display: table;
+   }
+  .up{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    display:flex;
+    align-items: center;
+  }
+  .check{
+    margin-left:25px;
+    
+  }
+  .search{
+   appearance: none;
+    border:none;
+    padding-right:15px;
+   
+  }
+  .fa-bars{
+color:black;
+}
+  .searchbar{
+    margin-right:25rem;
+    padding:0.7em 0.77em;
+    display: flex;
+     align-items: center;
+    background-color: white;
+    border-radius: 13px;
+    margin-top:5px ;
+    
+   
+}
+  .fa-search{
+    color:black;
+  }
+  .ser{
+    margin-left: 1000px;
+    
+    margin-top:10px;
+    display:table;
+   
+  }
+  .fa-flag-usa{
+    color:black;
+    margin-left: 250px;
+    margin-bottom:-11px;
+  }
+  .english{
+  background-color: #F7F8FA;
+   margin: none;
+   border: none;
+  }
+  
+  .colu { 
+    margin-top:-25px;
+ }
+ 
+  .fa-bell{
+    color:black;
+    margin-top:-10px;
+    margin-left:10px;
+  }
+  .man{
+    width:7%;
+    height: 7%;
+    margin-left: 450px;
+    margin-top: -25px;
+  }
+ 
+ .bottom{
+    display:flex;
+ }
+ .bottomm{
+    margin-left: 25px;
+    margin-top:25px
+ }
+ .botto{
+    margin-left: 1099px;
+    margin-top:25px;
+    padding:3px;
+    display:flex;
+    align-items: center;
+   
+   background:var(--violet);
+ }
+ .fa-gear{
+    background-color: white;
+ }
+ .set{
+    padding-top:1px;
+    margin-left: 10px;
+    color:white;
+ }
+ .bottom2{
+    
+    background-color:var(--violet);
+    width: 19%;
+    border-radius: 7px;
+    margin-top: 25px;
+    margin-left: 47px;
+ }
+ .fa-bring-forward{
+    margin:20px;
+   padding:200px;
+   
+ }
+ .hi{
+    margin-left:100px
+ }
+ .month{
+    margin-left:100px;
+ }
+ .fa-arrow-up{
+    margin-left:7px;
+    color:green
+ }
+ .fa-arrow-right-long{
+    margin-left:97px;
+ }
+ .per{
+    margin-left:222px;
+    margin-top:-26px;
+
+    padding:1px;
+    background-color :lightgreen;
+ }
+ .pere{
+    margin-left:222px;
+    margin-top:-26px;
+
+    padding:1px;
+    background-color :red;
+ }
+ .peri{
+    margin-left:222px;
+    margin-top:-26px;
+
+    padding:1px;
+    background-color: skyblue;
+ }
+ .peru{
+    margin-left:222px;
+    margin-top:-26px;
+
+    padding:1px;
+    background-color: rgb(228, 208, 78);
+ }
+ div.a{
+    width: 25px;
+    height: 25px;
+    background-color: var(--violet);
+    margin-left:210px;
+    margin-bottom: -11px;
+    transform: rotate(45deg);
+ }
+ .roww{
+    display:flex;
+ color:white;
+ }
+.img{
+    border-radius: 20px;
+    width: 45px;
+    height:45px;
+}
+ .table{
+    width: 100
+ }
+ .edit{
+  
+    background-color: var(--violet);
+    color:white;
+    border-radius: 20px;
+    
+ }
+ .deliver{
+background:green;
+border-radius: 20px;
+margin-top:5px;
+}
+ .cancel{
+background:red;
+border-radius: 20px;
+ }
+ .pending{
+background:yellow;
+border-radius: 20px;
+ }
+  table{
+    width:95%;
+    height:103%;
+  }
+  .upside31{
+    background-color:#F7F8FA;
+    margin-top:90px;
+    width:60%;
+  }
+  
+  .update3{
+    display:flex;}
+  table th {
+    border-top: 1px solid black;
+    padding: 15px;
+  }
+  table{
+    font-size:20px;
+  }
+  .upside32{
+    background-color:#EDF1F4;
+    margin-top:90px;
+    margin-left:50px;
+    width:25%;
+  }
+  .chat{
+    font-size: 25px;
+  }
+  .cha{
+    display:flex;
+  }
+  .viole{
+    background:violet;
+    margin-left: 50px;
+    font-size: 20px;
+    padding:20px;
+    border-radius: 25px;
+  }
+  .violee{
+    background:#EDF1F4;
+        margin-left: 175px;
+    font-size: 20px;
+    padding:15px;
+    border-radius: 25px;
+  }
+  span{
+    color:#EDF1F4;
+  }
+  .texte{
+    width:250px;
+    height:40px;
+    margin-left:20px;
+  }
+.che{
+    display:flex;
+}
+.send{
+    margin-left:40px;
+    color:white;
+   
+    background-color:lightgreen;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
