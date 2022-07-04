@@ -13,252 +13,345 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <script src="js/bootstrap.min.js"></script>
-    <div class="d-flex container" >
-        <div class="dashboard">
-            <h1>Geekyants</h1><br><br>
-            <h5> MAIN </h5>
-            
-            <div class="home">
-                <h3><i class="fas fa-home" ></i></h3>
-                <h3 class="label">Dashboard</h3>
-               </div>
-               <div class="home">
-                <h3><i class="fa-solid fa-calendar"></i></h3>
-                <h3 class="label">Calender</h3>
-               </div> 
-               <div class="home">
-                <h3><i class="fa-solid fa-envelope"></i></h3>
-                <h3 class="label">Email</h3>
-               </div>
-               <div class="home">
-                <h3><i class="fa-solid fa-cube"></i></h3>
-                <h3 class="label">UI elements</h3>
-               </div>
-               <div class="home">
-                <h3><i class="fa-solid fa-rectangle-list"></i></h3>
-                <h3 class="label">Forms</h3>
-               </div>
-               <div class="home">
-                <h3><i class="fa-solid fa-chart-pie"></i></h3>
-                <h3 class="label">charts</h3>
-               </div>
-               <div class="home">
-                <h3><i class="fa-solid fa-table-cells-large"></i></h3>
-                <h3 class="label">tables</h3>
-               </div>
-               <div class="home">
-                <h3><i class="fa-solid fa-face-grin"></i></h3>
-                <h3 class="label">icons</h3>
-               </div>
-               <div class="home">
-                <h3><i class="fa-solid fa-map-location"></i></h3>
-                <h3 class="label">maps</h3>
-               </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3 menu">
+        
+          <!-- < class="dashboard"> -->
+              <h1>Geekyants</h1><br><br>
+              <h5> MAIN </h5>
+              
+              <div class="home">
+                  <h3><i class="fas fa-home" ></i></h3>
+                  <h3 class="label">Dashboard</h3>
+                 </div>
+                 <div class="home">
+                  <h3><i class="fa-solid fa-calendar"></i></h3>
+                  <h3 class="label">Calender</h3>
+                 </div> 
+                 <div class="home">
+                  <h3><i class="fa-solid fa-envelope"></i></h3>
+                  <h3 class="label">Email</h3>
+                 </div>
+                 <div class="home">
+                  <h3><i class="fa-solid fa-cube"></i></h3>
+                  <h3 class="label">UI elements</h3>
+                 </div>
+                 <div class="home">
+                  <h3><i class="fa-solid fa-rectangle-list"></i></h3>
+                  <h3 class="label">Forms</h3>
+                 </div>
+                 <div class="home">
+                  <h3><i class="fa-solid fa-chart-pie"></i></h3>
+                  <h3 class="label">charts</h3>
+                 </div>
+                 <div class="home">
+                  <h3><i class="fa-solid fa-table-cells-large"></i></h3>
+                  <h3 class="label">tables</h3>
+                 </div>
+                 <div class="home">
+                  <h3><i class="fa-solid fa-face-grin"></i></h3>
+                  <h3 class="label">icons</h3>
+                 </div>
+                 <div class="home">
+                  <h3><i class="fa-solid fa-map-location"></i></h3>
+                  <h3 class="label">maps</h3>
+                 </div>
+                </div>
+      
+      <!-- </> -->
 
-    </div>
-    <div class="side">
-        <div class="side1">
-            <h1><i class="fa-solid fa-bars"></i></h1> 
-            <div class="dropdown">
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      <div class="col-sm-9">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar">
+          <h4><i class="fa-solid fa-bars"></i></h4>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              
+              
+              <li class="nav-item dropdown check">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   create
                 </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
               
-              </div>
-            <div class="searchbar">
-                <input type="search" class="search" name="search" id="" placeholder="search" size="round"  >
-                <i class="fa fa-search"></i></div>
-                <div class="colu">
-                    <i class="fa-solid fa-flag-usa"></i> 
-                    <div class="dropdown2">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                          english
-                        </a>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <i class="fa fa-search"></i>
+              <i class="fa-solid fa-flag-usa"></i> 
+              <ul class="navbar-nav mr-auto">
+              
+              
+                <li class="nav-item dropdown check">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    english
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                  
+                </li>
+                <i class="fa-regular fa-bell"></i>
+                    <img src="man.png" alt="" class="man" style="width:20% ">
+              </ul>
+            </form>
+          </div>
+        </nav>
+        <div class="side3">
+          <div class="d-flex up">
+            <div class="p-2 w-100">Dahboard <br>welcome to veltrix
+
+            </div>
+            <div class="p-2 flex-shrink-1 setting">
+              <i class="fa-duotone fa-gear"></i>settings</div>
+          </div>
+         
+      </div>
+      <div class="down">
+          <div class="down1 col-sm-12">
+            <div class="d-flex">
+
+              <div id="carouselExampleControls" class="carousel slide" style="margin:auto;" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="d-block w-100">
+                    <div class="p-2 flex-fill box">
+                      <div class="card mb-3 box" style="max-width: 400px;">
+                        <div class="row g-0">
+                          
+      
+                          <div class="col-md-4">
+                            <img src="1.png" class="img-fluid rounded-start" style="margin:20px" alt=>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="title">
+                              <h5 class="card-title">orders</h5><br><br>
+                              <h5 class="per"><div class="ribbon-2">+12%</div></h5>
+                            </div>
+                              <p class="card-text">1685 <i class="fa-solid fa-arrow-up" style="color:lightgreen"></i>
+                              </p>
+                             
+                                <br>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>     <i class="fa-solid fa-arrow-right-long"></i></p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                     <i class="fa-regular fa-bell"></i>
-                    <img src="man.png" alt="" class="man">
-                   
-               </div> 
-               
-    </div>
-        <div class="side2">
-            <div class="side4">
-            <div class="side3">
-            <h3>Dashboard</h3><br>
-            <h5>welcome to veltrix</h5>
-        </div>
-        <div class="botto">
-            <i class="fa-duotone fa-gear"></i>
-            <h5>settings</h5>
-        </div></div>
-        <div class="down">
-            <div class="down1">
-            <div class="card mb-3" style="max-width: 400px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="1.png" class="img-fluid rounded-start" style="margin:20px" alt=>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                        <div class="title">
-                      <h5 class="card-title">orders</h5>
-                      <h5 class="per"><div class=""></div> +12%</h5>
-                    </div>
-                      <p class="card-text">1685 <i class="fa-solid fa-arrow-up" style="color:lightgreen"></i>
-                      </p>
-                     
-
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>     <i class="fa-solid fa-arrow-right-long"></i></p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="card mb-3" style="max-width: 400px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="2.png" class="img-fluid rounded-start" style="margin:20px" alt=>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                        <div class="title">
-                      <h5 class="card-title">revenue</h5>
-                      <h5 class="peri"><div class=""></div> -28%</h5>
-                    </div>
-                      <p class="card-text">52,368 <i class="fa-solid fa-arrow-down" style="color:red"></i>
-                      </p>
-                     
-
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>     <i class="fa-solid fa-arrow-right-long"></i></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3" style="max-width: 400px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="3.png" class="img-fluid rounded-start" style="margin:20px" alt=>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                        <div class="title">
-                      <h5 class="card-title">average price</h5>
-                      <h5 class="peru"><div class=""></div> 00%</h5>
-                    </div>
-                      <p class="card-text">15.8 <i class="fa-solid fa-arrow-up" style="color:lightgreen"></i>
-                      </p>
-                     
-
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>     <i class="fa-solid fa-arrow-right-long"></i></p>
+                  <div class="carousel-item">
+                    <div class="d-block w-100">
+                    <div class="p-2 flex-fill box">
+                      <div class="card mb-3 box" style="max-width: 400px;">
+                        <div class="row g-0">
+                          
+      
+                          <div class="col-md-4">
+                            <img src="2.png" class="img-fluid rounded-start" style="margin:20px" alt=>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="title">
+                              <h5 class="card-title">revenue</h5><br><br>
+                              <h5 class="per"><div class="ribbon-2">+12%</div></h5>
+                            </div>
+                              <p class="card-text">52,368<i class="fa-solid fa-arrow-up" style="color:red"></i>
+                              </p>
+                             
+                                <br>
+                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>     <i class="fa-solid fa-arrow-right-long"></i></p>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="card mb-3" style="max-width: 400px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="4.png" class="img-fluid rounded-start" style="margin:20px" alt=>
+                  <div class="carousel-item">
+                    <div class="d-block w-100" alt="...">
+                      <div class="p-2 flex-fill box">
+                        <div class="card mb-3 box" style="max-width: 400px;">
+                          <div class="row g-0">
+                            
+        
+                            <div class="col-md-4">
+                              <img src="3.png" class="img-fluid rounded-start" style="margin:20px" alt=>
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                  <div class="title">
+                                <h5 class="card-title">average price</h5><br><br>
+                                <h5 class="per"><div class="ribbon-2">00%</div></h5>
+                              </div>
+                                <p class="card-text">15.8 <i class="fa-solid fa-arrow-up" style="color:lightblue"></i>
+                                </p>
+                               
+                                  <br>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>     <i class="fa-solid fa-arrow-right-long"></i></p>
+                              </div>
+                            </div>
+                          </div></div>
+                        </div>
+                        </div>
                   </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                        <div class="title">
-                      <h5 class="card-title">product solid</h5>
-                      <h5 class="per"><div class=""></div> +84%</h5>
-                    </div>
-                      <p class="card-text">2436 <i class="fa-solid fa-arrow-up" style="color:lightgreen"></i>
-                      </p>
-                     
-
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>     <i class="fa-solid fa-arrow-right-long"></i></p>
-                    </div>
+                  <div class="carousel-item">
+                    <div src="..." class="d-block w-100" alt="...">
+                      <div class="p-2 flex-fill box">
+                        <div class="card mb-3 box" style="max-width: 400px;">
+                          <div class="row g-0">
+                            
+        
+                            <div class="col-md-4">
+                              <img src="1.png" class="img-fluid rounded-start" style="margin:20px" alt=>
+                            </div>
+                            <div class="col-md-8">
+                              <div class="card-body">
+                                  <div class="title">
+                                <h5 class="card-title">product solid</h5><br><br>
+                                <h5 class="per"><div class="ribbon-2">+84%</div></h5>
+                              </div>
+                                <p class="card-text">2436<i class="fa-solid fa-arrow-up" style="color:yellow"></i>
+                                </p>
+                               
+                                  <br>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>     <i class="fa-solid fa-arrow-right-long"></i></p>
+                              </div>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                        </div>
                   </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-          </div>
-          <div class="down3">
-          <div class="down2">
-            <h4>latest transction</h4>
-            <table class="table">
-                <thead>
-                  <tr>
-                    <th>#id</th>
-                    <th>name</th>
-                    <th>date</th>
-                    <th>amount</th>
-                    <th>status</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th>#125</th>
-                    <th><img class="img" src="girl1.jpeg" alt="">jenne </th>
-                    <th>1/3/2011</th>
-                    <th>$98</th>
-                    <th class="deliver"><button type="button" class="btn btn-success">delivered</button></th>
-                    <th class="edit" >edit</th>
-                  </tr>
-                  <tr>
-                    <th>#120</th>
-        <th><img class="img" src="girl2.jpeg" alt="">alo</th>
-        <th>2/4/2020</th>
-        <th>$90</th>
-        <th class="deliver"><button type="button" class="btn btn-warning">l pending</button></th>
-        <th class="edit">edit</th>
-                  </tr>
-                  <tr>
-                    <th>#123</th>
-        <th><img class="img" src="girl3.jpeg" alt="">jone </th>
-        <th>3/1/2013</th>
-        <th>$95</th>
-        <th class="pending"><button type="button" class="btn btn-success">delivered</button></th>
-        <th class="edit">edit</th>
-                  </tr>
-                  <tr><th>#120</th>
-                    <th><img class="img" src="girl4.jpeg" alt="">luoi</th>
-                    <th>7/7/2007</th>
-                    <th>$00</th>
-                    <th class="cancel"><button type="button" class="btn btn-danger"> l cancel</button></th>
-                    <th class="edit">edit</th></tr>
-                  <tr><th>#103</th>
-                    <th><img class="img" src="girl5.webp" alt="">ioe</th>
-                    <th>05/05/2005</th>
-                    <th>$91</th>
-                    <th class="pending"><button type="button" class="btn btn-success">delivered</button></th>
-                    <th class="edit">edit</th></tr>
-                </tbody>
-              </table>
-          </div>
-          <div class="downn">
+              
+              
+    
+            
+          
+            
+                </div>
+              </div>
+            </div>
+           
+              <div class="row">
+                <div class="col">
+                  <div class="down2">
+                    <h4>latest transction</h4>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th>#id</th>
+                            <th>name</th>
+                            <th>date</th>
+                            <th>amount</th>
+                            <th>status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th>#125</th>
+                            <th><img class="img" src="girl1.jpeg" alt="">jenne </th>
+                            <th>1/3/2011</th>
+                            <th>$98</th>
+                            <th class="deliver"><button type="button" class="btn btn-success">delivered</button></th>
+                            <th class="edit" ><button type="button" class="btn btn-info">edit</button></th>
+                          </tr>
+                          <tr>
+                            <th>#120</th>
+                <th><img class="img" src="girl2.jpeg" alt="">alo</th>
+                <th>2/4/2020</th>
+                <th>$90</th>
+                <th class="deliver"><button type="button" class="btn btn-warning">l pending</button></th>
+                <th class="edit"><button type="button" class="btn btn-info">edit</button></th>
+                          </tr>
+                          <tr>
+                            <th>#123</th>
+                <th><img class="img" src="girl3.jpeg" alt="">jone </th>
+                <th>3/1/2013</th>
+                <th>$95</th>
+                <th class="pending"><button type="button" class="btn btn-success">delivered</button></th>
+                <th class="edit"><button type="button" class="btn btn-info">edit</button></th>
+                          </tr>
+                          <tr><th>#120</th>
+                            <th><img class="img" src="girl4.jpeg" alt="">luoi</th>
+                            <th>7/7/2007</th>
+                            <th>$00</th>
+                            <th class="cancel"><button type="button" class="btn btn-danger"> l cancel</button></th>
+                            <th class="edit"><button type="button" class="btn btn-info">edit</button></th></tr>
+                          <tr><th>#103</th>
+                            <th><img class="img" src="girl5.webp" alt="">ioe</th>
+                            <th>05/05/2005</th>
+                            <th>$91</th>
+                            <th class="pending"><button type="button" class="btn btn-success">delivered</button></th>
+                            <th class="edit"><button type="button" class="btn btn-info">edit</button></th></tr>
+                        </tbody>
+                      </table>
+                  </div>
+        
+                </div>
+                <div class="col">
+                  <div class="downn">
             <h4>chat</h4>
             <div class="message"> 
-           <img src="girl1.jpeg" class="chat" alt="">
+           <img src="girl1.jpeg" class="img" alt="">
            <h3 class="me">jenne <br>hello </h3>
 </div>
 <div class="message"> 
    
-    <h3 class="mee">jenne <br> hii </h3>
-     <img src="girl3.jpeg" class="chate" alt="">
+    <h3 class="mee">jonne <br> hii </h3>
+     <img src="girl3.jpeg" class="imge" alt="">
 </div> 
 <div class="message"> 
-    <img src="girl1.jpeg" class="chat" alt="">
+    <img src="girl1.jpeg" class="img" alt="">
     <h3 class="me">jenne <br> good morning </h3>
 </div>
 <div class="message"> 
 
-<h3 class="mee">jenne <br> good morning </h3>
-<img src="girl3.jpeg" class="chate" alt="">
+<h3 class="mee">jonne <br> good morning </h3>
+<img src="girl3.jpeg" class="imge" alt="">
 </div>
 <div class="message"> 
-    <img src="girl1.jpeg" class="chat" alt="">
+    <img src="girl1.jpeg" class="img" alt="">
     <h3 class="me">jenne <br> how are you? </h3>
 </div>
-<input type="text" name="" id=""  placeholder="enter your text" style="margin-left:200px ">
-<button type="button" class="btn btn-success" style="margin-left:200px">send</button>
+<input type="text" name="" id=""  placeholder="enter your text" style="margin-left:40px">
+<button type="button" class="btn btn-success" >send</button>
           </div>
-        </div></div>
-    </div>
-</div>
+
+                </div>
+                
+              
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    
+   
         
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>

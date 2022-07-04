@@ -1,171 +1,100 @@
-
-.dashboard{
-    margin-left:-300px;
+.menu{
+    background:#373C4E;
     color:white;
-    background:#323548;
-    width:30%;
-    padding-left:50px;
-  
-   
 }
-
 .home{
     display:flex;
-    align-items: center;
-    margin-bottom: 2px;
-    
 
 }
 .label{
-    padding:15px;
-}
-.container{
-    display:flex;
-}
-.side1{
-    display:flex;
-    background:#F7F8FA;
-    height:9%;
-    width:103%;
-    
+   
+    align-items: center;
+  
+   margin-left:20px;
+   margin-bottom: 20px;
 }
 .check{
-    margin-left:10px;
-    border:1px;
-  
+    margin-left:20px;
     background:white;
-    
-    
 }
-.searchbar{
-    margin-right:25rem;
-    padding:0.7em 0.77em;
-    display: flex;
-    align-items: center;
-    background-color: white;
-    border-radius: 13px;
-    margin-left:900px;
-   
-}
-.search{
-    appearance: none;
-     border:none;
-   }
-   .colu{
-    display: flex;
-    align-items: center;
-    margin-left:-350px;
-   }
-   .man{
-    width:45%;
-    height:45%;
-    margin-left:10px;
-   }
-   .fa-bell{
-    margin-left:10px;
-   }
-   .fa-flag-usa{
-    margin-left:15px;
-   }
-   .side3{
-    margin-top:35px;
-    margin-left:35px;
- 
-   }
-   .side4{
-    display:flex;
-    align-items: center;
-   }
-.botto{
-    display:flex;
-    align-items: center;
-    margin-left:1000px;
-    margin-top:50px;
-    margin-bottom:35px;
-    background:#616ED3;
-    border-radius: 5px;
-    padding: 10px;
-    color:white;
-}
-.dropdown{
-    margin-top:10px;
+.man{
+    height:50px;
     margin-left: 20px;
-    color:white;
 }
-.side1{
-    padding:10px;
+.navbar{
+    align-items: center;
+    margin:0px;
+}
+.fa-flag-usa{
+    margin-left: 20px;
+    padding:0px;
+}
+.fa-bell{
+    margin-left: 20px;
+    margin-top:20px;
+}
+.setting{
+    margin-top:10px;
+    padding:0px;
+    
+    display:flex;
+    background:#F7F8FA;
+}
+.up{
+    font-size: 25px;
 }
 .per{
-margin-left:20px;
-background:lightgreen;
-padding:20px;
+    margin-left:150px;
+    margin-top:-50px;
 }
-
-
-.title{
-    display:flex;
-}
-.card{
-    background:#616ED3;
-    margin-left: 20px;
-    color:white;
-}
-.down1{
-    display:flex;
-}
-.peri{
-    margin-left:20px;
-background:red;
-padding:20px;
-}
-.peru{
-    margin-left:20px;
-background:skyblue;
-padding:20px;
-}
-.down2{
-    background:#F7F8FA;
-    margin-top:40px;
-    margin-left:15px;
-    width:55%;
-}
-.down3{
-    display:flex;
-}
-.img{
-    border-radius: 50%;
-    width:20%;
-    height: 10%;
-
-    margin-right:50px;
-}
-.chat{
-    border-radius: 50%;
-    width:10%;
-    height: 5%;
-  
-}
-.message{
-    display:flex;
-}
-.me{
-   margin-left:50px;
-   background: #EDF1F4;
-   padding:20px;
-}
-.chate{
-    border-radius: 50%;
-    width:10%;height: 5%;
-    margin-left:20px;
-}
-.mee{
+.ribbon-2 {
+    --f: 10px; /* control the folded part*/
+    --r: 15px; /* control the ribbon shape */
+    --t: 10px; /* the top offset */
     
-   background: #EDF1F4;
-   padding:20px;
-   margin-left:400px;
-}
-.downn{
-    margin-top:20px;
+    position: absolute;
+    inset: var(--t) calc(-1*var(--f)) auto auto;
+    padding: 0 10px var(--f) calc(10px + var(--r));
+    clip-path: 
+      polygon(0 0,100% 0,100% calc(100% - var(--f)),calc(100% - var(--f)) 100%,
+        calc(100% - var(--f)) calc(100% - var(--f)),0 calc(100% - var(--f)),
+        var(--r) calc(50% - var(--f)/2));
+    background: green;
+    box-shadow: 0 calc(-1*var(--f)) 0 inset #0005;
+  }
+  .box{
+    font-size:20px;
+    background:#606DD9;
+    color:white;
+  }
+  .img{
+    height:40px;
+    width: 40px;
+  }
+  .me{
+    margin-left:100px;
+    margin-top:-50px;
+    background: #EDF1F4;
+    margin-right: 450px;
+  }
+  .imge{
+    height:40px;
+    width: 40px;
+    margin-left:300px;
+    margin-top:-85px;
+  }
+  .mee{
+    margin-left:100px;
+    background:#EDF1F4;
+    margin-right: 500px;
+  }
+  .btn-success{
     margin-left:50px;
+
+  }
+  .col{
     background:#F7F8FA;
-}
+    margin-left: 70px;
+    margin-top:50px;
+  }
+ 
