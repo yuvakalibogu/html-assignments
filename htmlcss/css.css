@@ -75,7 +75,7 @@ margin:9px;
     float:right;
 }
 .navbar{
-    background:#F7F8FA;
+    background:#ecedef;
     padding:20px;
     display:flex;
     align-items: center;
@@ -141,6 +141,7 @@ margin:9px;
 .below_navbar{
     display:flex;
     justify-content: space-between;
+    background:#F7F8FA;
 }
 .below_navbar_right{
     display:flex;
@@ -160,6 +161,8 @@ margin:9px;
 .below{
     display:flex;
     margin-top:-45px;
+    background: #F7F8FA;
+    
 }
 .orders{
     display:flex;
