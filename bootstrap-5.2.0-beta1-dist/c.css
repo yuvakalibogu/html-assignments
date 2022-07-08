@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+}
+
+.container {
+    /* height: 100%; */
+    /* background-color: cyan; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: #e0e4eb;
+}
+
+.sidebar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    background-color: #32334a;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    z-index: 1000;
+}
+
+.headerColumn {
+    margin-left: 20%;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    flex: 1;
+    background-color: #e0e4eb;
+}
+
+.navbar {
+    /* height: 8%; */
+    /* margin-left: 20%; */
+    width: 80%;
+    position: fixed;
+    background-color:  #ecedf1;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.companyname {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: #b2b6bc;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 100%;
+
+}
+
+.links > h4 {
+    color: #747f94;
+}
+
+.navlinkcontainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 25px;
+    width: 100%;
+}
+
+.navlinkcontainer > a{
+    color: #747f94;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: large;
+}
+
+.arrow {
+    position: absolute;
+    right: 15%;
+}
+
+.navlinkcontainer > i {
+    color: #747f94;
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 12%;
+    padding-top: 15px;
+}
+
+.navleft > img {
+    cursor: pointer;
+}
+
+.navleft > select {
+    padding: 7px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.navright {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+}
+/* search */
+.form {
+    display: flex;
+    flex-direction: row;
+  }
+  .search-field {
+    background-color: #dee1eb;
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+  }
+  
+  .search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+  }
+  
+  .search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+/* end of search */
+
+
+.l_img {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    /* margin-right: 10px; */
+}
+
+.flag {
+    display: flex;
+    flex-direction: row;
+}
+
+.flag > select {
+    margin-left: 10px;
+    background: transparent;
+    color: #71788f;
+    border: none;
+    cursor: pointer;
+}
+
+.right > img {
+    cursor: pointer;
+}
+
+.right {
+    margin: 10px;
+    margin-left: 15px;
+}
+
+.Dashboard {
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome {
+    margin-left: 30px;
+}
+
+.welcome > h4 {
+    color: #696f75;
+}
+
+.welcome > p {
+    color: #969b9f;
+}
+
+.setting_button {
+    margin-right: 30px;
+}
+
+.setting_button > button {
+    background-color: #626ed3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card_container {
+    margin-top: 15px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.card {
+    height: 140px;
+    width: 250px;
+    background-color: #626ed3;
+    margin-left: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:  column;
+    margin-top: 15px;
+}
+
+
+.type {
+    display: flex;
+    margin: 15px;
+    /* margin-top: 20px; */
+}
+
+.leftpart {
+    display: flex;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+
+.info > h4 {
+    font-size: 14px;
+    color: #a1abe5;
+}
+
+.info > p {
+    font-size: 25px;
+    color: #fff;
+    margin-top: 11px;
+}
+
+.past {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-left: 20px;
+    /* margin-bottom: 50px; */
+    align-items: center;
+}
+
+.past > p {
+    color: #a1abe5;
+    font-size: 15px;
+    /*margin-bottom: 20px; */
+}
+
+.past > img {
+    cursor: pointer;
+}
+
+.rightpart > img {
+    margin-top: 5px;
+}
+
+
+.polygon {
+    clip-path: polygon(9% 0, 100% 0, 100% 95%, 0 95%, 34% 40%);
+    background-color: #2ba399;
+    height: 20px;
+    width: 65px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* height: 10px;
+    width: 10px; */
+}
+
+.polygon2 {
+    clip-path: polygon(9% 0, 100% 0, 100% 95%, 0 95%, 34% 40%);
+    background-color: #ea4662;
+    height: 20px;
+    width: 65px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.polygon > p{
+    font-size: small;
+}
+
+.card3 {
+    position: relative;
+
+}
+
+.card3arrow {
+    position: absolute;
+    right: 0%;
+    top: 10%;
+}
+
+.blue {
+    background-color: #37a5f8;
+}
+
+.yellow {
+    background-color: #f6b622;
+}
+
+.transactionChatContainer {
+    margin-top: 20px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.transactiontable {
+    margin-left: 30px;
+    /* height: 100%; */
+    margin-bottom: 20px;
+    width: 60%;
+    background-color: white;
+}
+
+.chatbox {
+    margin-left: 30px;
+    /* height: 100%; */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    width: 32%;
+    background-color: white;
+}
+
+
+
+
+/* table */
+table, th, td {
+    border-top: 1px dotted lightgreen;
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+th, td {
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: start;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.name > img {
+    margin-right: 10px;
+}
+
+.transactiontable > p{
+    margin: 20px;
+    margin-left: 10px;
+    font-size: large;
+}
+
+.delivered {
+    background-color: #52b4ab;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.pending {
+    background-color: #f3b528;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.cancel {
+    background-color: #e9435b;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.edit-btn {
+    background-color: #6974d6;
+    border: none;
+    border-radius: 2px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/* .chatbox+p {
+    background-color: blue;
+} */
+
+.chatContainer {
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    overflow-y: scroll;
+}
+
+.chatbox > p {
+    margin: 10px;
+}
+
+.chatContainer > div {
+    margin: 15px;
+}
+
+.chat1 {
+    display: flex;
+}
+
+.chat2 {
+    display: flex;
+    justify-content: right;
+}
+
+.msg2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #edf1f4;
+    border-radius: 5px;
+}
+
+.msg1 {
+    background-color: #dfe4f6;
+    border-radius: 5px;
+}
+
+.chat1 > img {
+    margin-right: 15px;
+}
+
+.chat2 > img {
+    margin-left: 15px;
+}
+
+.msg1 > h4{
+    padding: 3px;
+}
+
+.msg1 > p {
+    padding: 3px;
+}
+
+.msg2 > h4{
+    padding: 3px;
+}
+
+.msg2 > p {
+    padding: 3px;
+}
+
+.sendinput {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.chatinput {
+    width: 60%;
+    height: 25px;
+}
+
+.sendbutton {
+    background-color: #28a39c;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+}

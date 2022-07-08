@@ -1,360 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="boot.css">
+  <script src="https://kit.fontawesome.com/2f2a46030c.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" href="boot.css">
-    <script src="https://kit.fontawesome.com/2f2a46030c.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+
+  <title>Document</title>
 </head>
+
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-3 menu">
-        
-          <!-- < class="dashboard"> -->
-              <h1>Geekyants</h1><br><br>
-              <h5> MAIN </h5>
-              
-              <div class="home">
-                  <h3><i class="fas fa-home" ></i></h3>
-                  <h3 class="label">Dashboard</h3>
-                 </div>
-                 <div class="home">
-                  <h3><i class="fa-solid fa-calendar"></i></h3>
-                  <h3 class="label">Calender</h3>
-                 </div> 
-                 <div class="home">
-                  <h3><i class="fa-solid fa-envelope"></i></h3>
-                  <h3 class="label">Email</h3>
-                 </div>
-                 <div class="home">
-                  <h3><i class="fa-solid fa-cube"></i></h3>
-                  <h3 class="label">UI elements</h3>
-                 </div>
-                 <div class="home">
-                  <h3><i class="fa-solid fa-rectangle-list"></i></h3>
-                  <h3 class="label">Forms</h3>
-                 </div>
-                 <div class="home">
-                  <h3><i class="fa-solid fa-chart-pie"></i></h3>
-                  <h3 class="label">charts</h3>
-                 </div>
-                 <div class="home">
-                  <h3><i class="fa-solid fa-table-cells-large"></i></h3>
-                  <h3 class="label">tables</h3>
-                 </div>
-                 <div class="home">
-                  <h3><i class="fa-solid fa-face-grin"></i></h3>
-                  <h3 class="label">icons</h3>
-                 </div>
-                 <div class="home">
-                  <h3><i class="fa-solid fa-map-location"></i></h3>
-                  <h3 class="label">maps</h3>
-                 </div>
-                </div>
-      
-      <!-- </> -->
-
-      <div class="col-sm-9">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar">
-          <h4><i class="fa-solid fa-bars"></i></h4>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              
-              
-              <li class="nav-item dropdown check">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  create
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <i class="fa fa-search"></i>
-              <i class="fa-solid fa-flag-usa"></i> 
-              <ul class="navbar-nav mr-auto">
-              
-              
-                <li class="nav-item dropdown check">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    english
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                  
-                </li>
-                <i class="fa-regular fa-bell"></i>
-                    <img src="man.png" alt="" class="man" style="width:20% ">
-              </ul>
-            </form>
-          </div>
-        </nav>
-        <div class="side3">
-          <div class="d-flex up">
-            <div class="p-2 w-100">Dahboard <br>welcome to veltrix
-
-            </div>
-            <div class="p-2 flex-shrink-1 setting">
-              <i class="fa-duotone fa-gear"></i>settings</div>
-          </div>
-         
+  <div class="d-flex">
+    <div id="sidebar" class="menu d-none d-lg-block col-lg-2">
+      <div class="company-name">
+        GeekyAnts
       </div>
-      <div class="down">
-          <div class="down1 col-sm-12">
-            <div class="d-flex">
+      <br>
+      <h class="main">MAIN</h>
+      <div class="menu-items">
+        <div class="d-flex dashboard">
+          <div class="d-flex dashboard__title">
+            <i class="fa-solid fa-house"></i>
+            <h5 class="dash">Dashboard</h5>
+          </div>
+          <div class="dashboard__notification">
+            <h4 class="dot1">2</h4>
+          </div>
+        </div>
+        <div class="d-flex dashboard">
+          <div class="d-flex dashboard__title">
+            <i class="fa-regular fa-calendar"></i>
+            <h5 class="dash">Calender</h5>
+          </div>
+          <div class="dashboard__notification">
 
-              <div id="carouselExampleControls" class="carousel slide" style="margin:auto;" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="d-block w-100">
-                    <div class="p-2 flex-fill box">
-                      <div class="card mb-3 box" style="max-width: 400px;">
-                        <div class="row g-0">
-                          
-      
-                          <div class="col-md-4">
-                            <img src="1.png" class="img-fluid rounded-start" style="margin:20px" alt=>
-                          </div>
-                          <div class="col-md-8">
-                            <div class="card-body">
-                                <div class="title">
-                              <h5 class="card-title">orders</h5><br><br>
-                              <h5 class="per"><div class="ribbon-2">+12%</div></h5>
-                            </div>
-                              <p class="card-text">1685 <i class="fa-solid fa-arrow-up" style="color:lightgreen"></i>
-                              </p>
-                             
-                                <br>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>     <i class="fa-solid fa-arrow-right-long"></i></p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="d-block w-100">
-                    <div class="p-2 flex-fill box">
-                      <div class="card mb-3 box" style="max-width: 400px;">
-                        <div class="row g-0">
-                          
-      
-                          <div class="col-md-4">
-                            <img src="2.png" class="img-fluid rounded-start" style="margin:20px" alt=>
-                          </div>
-                          <div class="col-md-8">
-                            <div class="card-body">
-                                <div class="title">
-                              <h5 class="card-title">revenue</h5><br><br>
-                              <h5 class="per"><div class="ribbon-2">+12%</div></h5>
-                            </div>
-                              <p class="card-text">52,368<i class="fa-solid fa-arrow-up" style="color:red"></i>
-                              </p>
-                             
-                                <br>
-                              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>     <i class="fa-solid fa-arrow-right-long"></i></p>
-                            </div>
-                          </div>
-                        </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="d-block w-100" alt="...">
-                      <div class="p-2 flex-fill box">
-                        <div class="card mb-3 box" style="max-width: 400px;">
-                          <div class="row g-0">
-                            
-        
-                            <div class="col-md-4">
-                              <img src="3.png" class="img-fluid rounded-start" style="margin:20px" alt=>
-                            </div>
-                            <div class="col-md-8">
-                              <div class="card-body">
-                                  <div class="title">
-                                <h5 class="card-title">average price</h5><br><br>
-                                <h5 class="per"><div class="ribbon-2">00%</div></h5>
-                              </div>
-                                <p class="card-text">15.8 <i class="fa-solid fa-arrow-up" style="color:lightblue"></i>
-                                </p>
-                               
-                                  <br>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>     <i class="fa-solid fa-arrow-right-long"></i></p>
-                              </div>
-                            </div>
-                          </div></div>
-                        </div>
-                        </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div src="..." class="d-block w-100" alt="...">
-                      <div class="p-2 flex-fill box">
-                        <div class="card mb-3 box" style="max-width: 400px;">
-                          <div class="row g-0">
-                            
-        
-                            <div class="col-md-4">
-                              <img src="1.png" class="img-fluid rounded-start" style="margin:20px" alt=>
-                            </div>
-                            <div class="col-md-8">
-                              <div class="card-body">
-                                  <div class="title">
-                                <h5 class="card-title">product solid</h5><br><br>
-                                <h5 class="per"><div class="ribbon-2">+84%</div></h5>
-                              </div>
-                                <p class="card-text">2436<i class="fa-solid fa-arrow-up" style="color:yellow"></i>
-                                </p>
-                               
-                                  <br>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>     <i class="fa-solid fa-arrow-right-long"></i></p>
-                              </div>
-                            </div>
-                          </div>
-                          </div>
-                        </div>
-                        </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              
-              
-    
-            
-          
-            
-                </div>
-              </div>
-            </div>
-           
-              <div class="d-flex">
-                <div class="col">
-                  <div class="down2">
-                    <h4>latest transction</h4>
-                    <table class="table">
-                        <thead>
-                          <tr>
-                            <th>#id</th>
-                            <th>name</th>
-                            <th>date</th>
-                            <th>amount</th>
-                            <th>status</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th>#125</th>
-                            <th><img class="img" src="girl1.jpeg" alt="">jenne </th>
-                            <th>1/3/2011</th>
-                            <th>$98</th>
-                            <th class="deliver"><button type="button" class="btn btn-success">delivered</button></th>
-                            <th class="edit" ><button type="button" class="btn btn-info">edit</button></th>
-                          </tr>
-                          <tr>
-                            <th>#120</th>
-                <th><img class="img" src="girl2.jpeg" alt="">alo</th>
-                <th>2/4/2020</th>
-                <th>$90</th>
-                <th class="deliver"><button type="button" class="btn btn-warning">l pending</button></th>
-                <th class="edit"><button type="button" class="btn btn-info">edit</button></th>
-                          </tr>
-                          <tr>
-                            <th>#123</th>
-                <th><img class="img" src="girl3.jpeg" alt="">jone </th>
-                <th>3/1/2013</th>
-                <th>$95</th>
-                <th class="pending"><button type="button" class="btn btn-success">delivered</button></th>
-                <th class="edit"><button type="button" class="btn btn-info">edit</button></th>
-                          </tr>
-                          <tr><th>#120</th>
-                            <th><img class="img" src="girl4.jpeg" alt="">luoi</th>
-                            <th>7/7/2007</th>
-                            <th>$00</th>
-                            <th class="cancel"><button type="button" class="btn btn-danger"> l cancel</button></th>
-                            <th class="edit"><button type="button" class="btn btn-info">edit</button></th></tr>
-                          <tr><th>#103</th>
-                            <th><img class="img" src="girl5.webp" alt="">ioe</th>
-                            <th>05/05/2005</th>
-                            <th>$91</th>
-                            <th class="pending"><button type="button" class="btn btn-success">delivered</button></th>
-                            <th class="edit"><button type="button" class="btn btn-info">edit</button></th></tr>
-                        </tbody>
-                      </table>
-                  </div>
-        
-                </div>
-                <div class="col">
-                  <div class="downn">
-            <h4>chat</h4>
-            <div class="message"> 
-           <img src="girl1.jpeg" class="img" alt="">
-           <h3 class="me">jenne <br>hello </h3>
-</div>
-<div class="message"> 
-   
-    <h3 class="mee">jonne <br> hii </h3>
-     <img src="girl3.jpeg" class="imge" alt="">
-</div> 
-<div class="message"> 
-    <img src="girl1.jpeg" class="img" alt="">
-    <h3 class="me">jenne <br> good morning </h3>
-</div>
-<div class="message"> 
-
-<h3 class="mee">jonne <br> good morning </h3>
-<img src="girl3.jpeg" class="imge" alt="">
-</div>
-<div class="message"> 
-    <img src="girl1.jpeg" class="img" alt="">
-    <h3 class="me">jenne <br> how are you? </h3>
-</div>
-<input type="text" name="" id=""  placeholder="enter your text" style="margin-left:40px">
-<button type="button" class="btn btn-success" >send</button>
+          </div>
+        </div>
+        <div class="d-flex dashboard">
+          <div class="d-flex dashboard__title">
+            <i class="fa-regular fa-envelope"></i>
+            <h5 class="dash">Email</h5>
+          </div>
+          <div class="dashboard__notification">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="d-flex dashboard">
+          <div class="d-flex dashboard__title">
+            <i class="fa-solid fa-cube"></i>
+            <h5 class="dash">UI elements</h5>
+          </div>
+          <div class="dashboard__notification">
+            <i class="fa-solid fa-chevron-right"></i>
           </div>
 
-                </div>
-                
-              
-            </div>
+        </div>
+        <div class="d-flex dashboard">
+          <div class="d-flex dashboard__title">
+            <i class="fa-solid fa-rectangle-list"></i>
+            <h5 class="dash">Forms</h5>
+          </div>
+          <div class="dashboard__notification">
+            <h4 class="dot2">9</h4>
+          </div>
+        </div>
+        <div class="d-flex dashboard">
+          <div class="d-flex dashboard__title">
+            <i class="fa-solid fa-chart-pie"></i>
+            <h5 class="dash">Charts</h5>
+          </div>
+          <div class="dashboard__notification">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="d-flex dashboard">
+          <div class="d-flex dashboard__title">
+            <i class="fa-solid fa-table-cells-large"></i>
+            <h5 class="dash">Table</h5>
+          </div>
+          <div class="dashboard__notification">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="d-flex dashboard">
+          <div class="d-flex dashboard__title">
+            <i class="fa-solid fa-face-smile"></i>
+            <h5 class="dash">Icons</h5>
+          </div>
+          <div class="dashboard__notification">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="d-flex dashboard">
+          <div class="d-flex dashboard__title">
+            <i class="fa-solid fa-location-dot"></i>
+            <h5 class="dash">Maps</h5>
+          </div>
+          <div class="dashboard__notification">
+            <h4 class="dot3">2</h4>
           </div>
         </div>
       </div>
-   
-    
-   
+    </div>
+    <div id = "main-menu" class="right_side col-sm-12 col-lg-10 col-md-12 container-fluid">
+      <div class="navbar ">
+        <div class="navbar_left d-flex">
+        <h1>
+          <i id="toggleButton" value = "YES" class="fa-solid fa-bars"></i>
+
+        </h1>
+        <h3 class="create">create
+        <i class="fa-solid fa-caret-down"></i></h3>
+        </div>
         
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+        <div class="navbar_right navbar-expand-md d-flex">
+          
+          <div class="searchbar">
+            <input type="search" class="search" name="search" id="" placeholder="Search" size="round"  >
+            <i class="fa fa-search"></i>
+          </div>
+          <div class="right_nav" >
+            <i class="fa-solid fa-flag-usa nav flag-icon"></i> 
+            <span class="nav">English<i class="fa-solid fa-caret-down "></i></span>
+            <i class="fa-regular fa-bell nav nav-bell"></i>
+            <img src="man.png" alt="" class="man">
+            
+            </div>
+            
+           </div>
+          
+        </div>
+        <div class="d-flex below-nav ">
+          <div class="dash">
+            <h3 style="color:#505963">Dashboard</h3>
+            <h5 style="color:#D4D9DF">welcome to Veltrix dashboard</h5>
+          </div>
+          <div class="d-flex setting">
+            <i class="fa-solid fa-gear"></i>
+            <h5>Setting</h5>
+  
+          </div>
+        </div>
+        <div class="box d-flex flex-wrap">
+          
+            <div class="orders">
+              <div class="d-flex">
+                <div class="d-flex">
+                  <img src="1.png" alt="">
+                  <div><br>
+                    ORDERS <br> <br>
+                    <span class="value"> 1,685</span>
+                  </div>
+                </div>
+                <div>
+                  <div class="a"></div>
+                  <div class="ribbon">
+                    <h5>+12%</h5>
+                  </div>
+                  <h5><i class="fa-solid fa-arrow-up green"></i></h5>
+  
+                </div>
+  
+              </div><br>
+              <div class="d-flex">
+  
+                <h5>last month</h5>
+                <h5><i class="fa-solid fa-arrow-right-long"></i></h5>
+              </div>
+  
+            </div>
+  
+            <div class="orders">
+              <div class="d-flex">
+                <div class="d-flex">
+                  <img src="2.png" alt="">
+                  <div><br>
+                    REVENUE<br><br>
+                    <span class="value">52,368</span> 
+                  </div>
+                </div>
+                <div>
+                  <div class="b"></div>
+                  <div class="ribbon2">
+                    <h5>-28%</h5>
+                  </div>
+                  <h5><i class="fa-solid fa-arrow-up red"></i></h5>
+  
+                </div>
+  
+              </div><br>
+              <div class="d-flex">
+  
+                <h5>last month</h5>
+                <h5><i class="fa-solid fa-arrow-right-long"></i></h5>
+              </div>
+  
+            </div>
+            <div class="orders">
+              <div class="d-flex">
+                <div class="d-flex">
+                  <img src="3.png" alt="">
+                  <div><br>
+                    AVERAGE PRICE <br>
+                    <span class="value"> 15.8</span>
+                  </div>
+                </div>
+                <div>
+                  <div class="c"></div>
+                  <div class="ribbon3">
+                    <h5>00%</h5>
+                  </div>
+                  <h5><i class="fa-solid fa-arrow-up green"></i></h5>
+  
+                </div>
+  
+              </div><br>
+              <div class="d-flex">
+  
+                <h5>last month</h5>
+                <h5><i class="fa-solid fa-arrow-right-long"></i></h5>
+              </div>
+  
+            </div>
+            <div class="orders">
+              <div class="d-flex">
+                <div class="d-flex">
+                  <img src="2.png" alt="">
+                  <div><br>
+                    PRODUCT SOLID<br>
+                    <span class="value"> 2436</span>
+                  </div>
+                </div>
+                <div>
+                  <div class="e"></div>
+                  <div class="ribbon4">
+                    <h5>+84%</h5>
+                  </div>
+                  <h5><i class="fa-solid fa-arrow-up green"></i></h5>
+  
+                </div>
+  
+              </div><br>
+              <div class="d-flex">
+  
+                <h5>last month</h5>
+                <h5><i class="fa-solid fa-arrow-right-long"></i></h5>
+              </div>
+  
+            </div>      
+            </div>
+            <div class="tablebox d-flex flex-wrap">
+              <div class="tabledata ">
+                <h3 class="latest_transction">Latest Transction</h3>
+              <table>
+                <tr>
+                  <th>#Id</th>
+                  <th>Name</th>
+                  <th>Date</th>
+                  <th>Amount</th>
+                  <th>Status</th>
+              </tr>
+              <tr>
+                <th>#125</th>
+                
+            <th>
+              <div class="image"><img class="images" src="girl1.jpeg" alt="">jenne</div> </th>
+            <th>1/3/2011</th>
+            <th>$98</th>
+            <th><span class="deliver">Delivered</span></th>
+            <th><span class="edit">Edit</span></th>
+        </tr>
+            <tr><th>#120</th>
+              <th>
+                <div class="image"><img class="images" src="girl2.jpeg" alt="">Iolone</div> </th>
+             
+            <th>2/4/2020</th>
+            <th>$90</th>
+            <th><span class="deliver">Delivered</span></th>
+            <th><span class="edit">Edit</span></th>
+            </tr>
+            <tr><th>#123</th>
+              <th>
+                <div class="image"><img class="images" src="girl3.jpeg" alt="">Jone</div> </th>
+             
+            <th>3/1/2013</th>
+            <th>$95</th>
+            <th><span class="pending">Pending</span></th>
+            <th><span class="edit">Edit</span></th>
+            </tr>
+            <tr><th>#120</th>
+              <th>
+                <div class="image"><img class="images" src="girl4.jpeg" alt="">Jacke</div> </th>
+             
+            <th>7/7/2007</th>
+            <th>$00</th>
+            <th><span class="cancel">Cancel</span></th>
+            <th><span class="edit">Edit</span></th>
+            </tr>
+            <tr><th>#103</th>
+              <th>
+                <div class="image"><img class="images" src="girl2.jpeg" alt="">Joshe</div> </th>
+             
+            <th>05/05/2005</th>
+            <th>$91</th>
+            <th><span class="pending">Pending</span></th>
+            <th><span class="edit">Edit</span></th>
+    </tr>
+              </table>
+
+
+
+
+              </div>
+              <div class="chatter">
+                
+                <h3>Chat</h3>
+                <div class="chat">
+                 
+                    <div class="person1 d-flex">
+                      <img src="girl1.jpeg" class="image" alt="">
+                      <h5 class="jenne"><span class="name_chat"> Jenne</span> <br> <span class="chat_chat"> Hii,Goodmorning</span></h5>
+                    </div>
+                    <div class="person2 d-flex">
+                      
+                      <h5 class="jone"><span class="name_chat"> Jenne</span> <br> <span class="chat_chat"> Hii,Goodmorning</span></h5>
+                      <img src="girl2.jpeg" class="image" alt="">
+                    </div>
+                    <div class="person1 d-flex">
+                      <img src="girl1.jpeg" class="image" alt="">
+                      <h5 class="jenne"><span class="name_chat"> Jenne</span> <br> <span class="chat_chat"> Hii,Goodmorning</span></h5>
+                    </div>
+                    <div class="person2 d-flex">
+                      <h5 class="jone"><span class="name_chat"> Jenne</span> <br> <span class="chat_chat"> Hii,Goodmorning</span></h5>
+                      <img src="girl2.jpeg" class="image" alt="">
+                    </div>
+                    <div class="person1 d-flex">
+                      <img src="girl1.jpeg" class="image" alt="">
+                      <h5 class="jenne"><span class="name_chat"> Jenne</span> <br> <span class="chat_chat"> Hii,Goodmorning</span></h5>
+                    
+                  </div>
+
+                </div><div>
+                <input type="text" class="search_send"name="" id="" placeholder="Enter your text">
+                <button class="send"> send</button>
+                </div>
+              </div>
+        </div>
+    
+    
+      </div></div>
+      
+           
+  
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+
+  <script src="script.js"></script>
 </body>
+
 </html>

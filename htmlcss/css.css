@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;1,8..144,100;1,8..144,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin:0px;
     padding:0px;
+    font-family: 'Roboto', sans-serif;
 }
 .whole{
     display:flex;
@@ -13,7 +15,11 @@
     height:65.5rem;
     
 }
+.main{
+    margin-left:15px;
+}
 .geekyants{
+    margin-top:20px;
     padding-left:40px;
     padding-right:40px;
 }
@@ -48,9 +54,9 @@ margin:9px;
 }
 
 .dot1{
-    padding:1px;
+    padding:3px;
     margin: 5px;
-    background:#8721da;
+    background:#7A84DB;
     color:white;
     border-radius: 4px;
     float:right;
@@ -59,17 +65,17 @@ margin:9px;
     margin:7px;
 }
 .dot2{
-    padding:1px;
+    padding:3px;
     margin: 5px;
-    background:green;
+    background: #25A296;
     color:white;
     border-radius: 4px;
     float:right;
 }
 .dot3{
-    padding:1px;
+    padding:3px;
     margin: 5px;
-    background:red;
+    background: #E44C64;
     color:white;
     border-radius: 4px;
     float:right;
@@ -88,8 +94,9 @@ margin:9px;
     align-items: center;
 }
 .create{
-    padding:5px;
+    padding:9px;
     background:white;
+    border-radius: 10px;
     margin-left:15px;
 }
 .searchbar{
@@ -150,8 +157,11 @@ margin:9px;
     padding:15px;
     margin:35px;
     
-    background:#8363db;
+    background:#626ED4 ;
     color:white;
+}
+.latest_transction{
+    margin:22px;
 }
 
 .below_navbar_left{
@@ -175,99 +185,153 @@ margin:9px;
     color:#F7F8FA;
 }
 .a{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     background-color: var(--violet);
     
     transform: rotate(45deg);
     background:#626ED4 ;
-    margin-top: 19px;
-    margin-left:21px;
+    margin-top: 20px;
+    margin-left:19px;
+   margin-bottom:-39px;
  }
  .e{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     background-color: var(--violet);
     
     transform: rotate(45deg);
     background:#626ED4 ;
-    margin-top: 19px;
-    margin-left:9px;
+    margin-top: 20px;
+    margin-left:20px;
+   margin-bottom:-39px;
  }
  .b{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     background-color: var(--violet);
     
     transform: rotate(45deg);
     background:#626ED4 ;
     margin-top: 20px;
-    margin-left:27px;
+    margin-left:31px;
+   margin-bottom:-39px;
  }
  .c{
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     background-color: var(--violet);
     
     transform: rotate(45deg);
     background:#626ED4 ;
     margin-top: 20px;
-    margin-left:15px;
+    margin-left:14px;
+   margin-bottom:-39px;
  }
 .ribbon{
     padding-left:35px;
     margin-top:-30px;
     margin-left:33px;
-    background: green;
+    background: #25A296;
 }
+.ribbon h1{
+    font-size: 1.4em;
+    padding: 0.5em;
+}
+
+
 .ribbon2{
     padding-left:35px;
     margin-top:-30px;
-    margin-left:29px;
-    background: red;
+    margin-left:27px;
+    background: #E44C64;
+    
 }
+.ribbon2 h1{
+    font-size: 1.4em;
+    padding: 0.5em;
+}
+
 .ribbon3{
     padding-left:35px;
     margin-top:-30px;
-    margin-left:40px;
-    background:skyblue;
+    margin-left:45px;
+    background:#36A5F6;
+}
+.ribbon3 h1{
+    font-size: 1.4em;
+    padding: 0.5em;
 }
 .ribbon4{
     padding-left:35px;
     margin-top:-30px;
-    margin-left:20px;
-    background: gold;
+    margin-left:35px;
+    background:#F6B726;
+}
+.ribbon4 h1{
+    font-size: 1.4em;
+    padding: 0.5em;
+}
+.below_tag{
+    font-size: 20px;
+    margin-top:-17px;
+}
+.below_tag2{
+    font-size: 20px;
+    margin-top:-1px;
+}
+.below_tag4{
+    font-size: 20px;
+    margin-top:-1px;
 }
 .fa-arrow-right-long{
     margin-left:45px;
-    margin-top:35px;
+    margin-top:1px;
 }
 .red{
     color:red;
+    margin-left:19px;
+
 }
 .green{
  color:lightgreen;
+ margin-left:19px;
+
 }
 .blue{
     color:skyblue;
 }
 .number{
-    margin-top:12px;
+    margin-top:0px;
+}
+.number2{
+    margin-top:-25px;
+}
+.number3{
+    margin-top:-15px;
+    margin-left:15px;
 }
 img{
-    width:75px;
-    height:75px;
+    width:70px;
+    height:70px;
     border-radius: 20px;
 }
 .image{
     display:flex;
     align-items: center;
     
+    
+}
+.images{
+    width:70px;
+    height:70px;
+    border-radius: 50px;
+    margin-right:20px;
 }
 .deliver{
     background:green;
     color:white;
-    padding:7px;
+    padding:4px;
     border-radius: 9px;
     font-size:15px;
     
@@ -275,14 +339,14 @@ img{
      .cancel{
       color:white;
     background:red;
-    padding:7px;
+    padding:4px;
     border-radius: 9px;
     font-size:15px;
      }
      .pending{
       color:white;
     background:gold;
-    padding:7px;
+    padding:4px;
     border-radius: 9px;
     font-size:15px;
      }
@@ -291,7 +355,7 @@ img{
   
         background-color: #626ED4 ;
         color:white;
-        padding:7px;
+        padding:9px;
         border-radius: 7px;
         font-size:15px;
         
@@ -328,7 +392,7 @@ img{
     }
     .jenne{
         color:blue;
-        background:#F7F8FA;
+        background:#E1E4F7;
         padding:15px;
         border-radius: 1px 40px 30px 30px ;
         margin-left:50px;
@@ -336,7 +400,7 @@ img{
     }
     .jone{
         color:blue;
-        background:#E1E4F7;
+        background:#F7F8FA;
         padding:20px;
         border-radius: 30px 1px 40px 30px ;
         margin-left:200px;
@@ -355,7 +419,7 @@ img{
    
 }
 .search_send{
-    width:390px;
+    width:350px;
     height:40px;
     margin-bottom:40px;
 
@@ -366,10 +430,21 @@ img{
     background:green;
     color:white;
     border-radius: 5px;
+    margin-left:25px;
 }
 .chat_send{
     margin:50px;
     background: white;
     padding:20px;
     border-radius: 5px;
+
+}
+.chat_chat{
+    margin: 2px 7px;
+   color:#333;
+   font-size: 17px;
+   font-weight:100;
+}
+.name_chat{
+    color:#5C6BBF;
 }
